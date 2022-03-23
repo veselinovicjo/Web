@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Tahoma, sans-serif;
+  color: brown;
+}
+
+head,
+body {
+  background: url(./img/background.jpg) center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.containerHeader {
+  background: beige;
+  text-align: center;
+  font-size: large;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+h1 {
+  background: beige;
+  text-align: center;
+  color: brown;
+  margin: 20px 0 20px 0;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.divChooseProject {
+    background: beige;
+    text-align: center;
+    margin-top: 2em;
+    font-size: large;
+}
+
+.divChooseProject select {
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+}
+
+body button {
+    background-color: firebrick; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1em;
+}
+
+.tasksList {
+    display: flex;
+    flex-direction: column;
+    border-width: 2px;
+    margin-bottom: 3px;
+    border: ridge brown;
+}
+
+/* modal */
+
+.modal-backdrop {
+display: none;
+    position: absolute;
+
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #00000090;
+    
+    justify-content: center;
+    align-items:  center;
+}
+
+.modal{
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.modal input {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.modal select {
+    margin-bottom: 1em;
+}
+
+.modal  label {
+    display: inline-block;
+    min-width: 150px;
+    font-weight: bold;
+}
